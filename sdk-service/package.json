@@ -1,0 +1,19 @@
+{
+  "name": "vitalis-sdk-service",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Runs the Presage SmartSpectra SDK on the server. The browser streams camera frames here after the person gives consent.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@smartspectra/node-sdk": "^3.5.0",
+    "protobufjs": "^7.6.6",
+    "ws": "^8.18.0"
+  }
+}
