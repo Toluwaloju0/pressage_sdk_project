@@ -77,7 +77,7 @@ vitalis/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url> vitalis
+git clone https://github.com/Toluwaloju0/pressage_sdk_project.git vitalis
 cd vitalis
 ```
 
